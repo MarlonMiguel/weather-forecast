@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/manu_maps"
-        android:icon="@drawable/locall"
-        android:title="Mapa "/>
-
+        android:id="@+id/nav_cities"
+        android:icon="@drawable/ogo"
+        android:title="Cidades"/>
     <item
-        android:id="@+id/manu_perfil"
-        android:icon="@drawable/pessoas"
-        android:title="Perfil "/>
+        android:id="@+id/nav_map"
+        android:icon="@drawable/ogo"
+        android:title="Mapa"/>
 </menu>

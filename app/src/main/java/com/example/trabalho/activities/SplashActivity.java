@@ -1,4 +1,4 @@
-package com.example.trabalho;
+package com.example.trabalho.activities;
 
 import android.app.Activity;
 
