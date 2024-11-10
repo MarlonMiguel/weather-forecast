@@ -1,0 +1,39 @@
+<!-- res/layout/activity_sobre.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sobre_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <!-- Exibe uma imagem opcional -->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:contentDescription="Foto do desenvolvedor" />
+
+    <!-- Nome do desenvolvedor -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome: Seu Nome"
+        android:textSize="18sp"
+        android:paddingTop="16dp" />
+
+    <!-- RA do desenvolvedor -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RA: Seu RA"
+        android:textSize="18sp" />
+
+    <!-- Curso do desenvolvedor -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Curso: Seu Curso"
+        android:textSize="18sp" />
+</LinearLayout>
