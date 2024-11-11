@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sobre_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/profile_image"
+        android:contentDescription="Foto do desenvolvedor"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:clipToOutline="true"
+        android:outlineProvider="background" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gabriel"
+        android:textSize="18sp"
+        android:paddingTop="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RA: Seu RA"
+        android:textSize="18sp" />
+
+    <!-- Curso do desenvolvedor -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Curso: Seu Curso"
+        android:textSize="18sp" />
+
+</LinearLayout>

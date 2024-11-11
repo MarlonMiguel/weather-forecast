@@ -4,6 +4,15 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="#DAEB03E6"
+        android:elevation="2dp"
+        android:showAsAction="never"
+        android:titleTextColor="#FFFFFF" />
+
     <!-- Barra de navegação superior com as abas -->
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tab_layout"
